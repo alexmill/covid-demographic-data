@@ -1,6 +1,6 @@
 # COVID Demographic Data Formatting
 
-This project is designed to take the sraped raw data from [obastani/covid19demographics](https://github.com/obastani/covid19demographics) and format it for processing/plotting/publication. We are currently only focusing on plotting COVID-19 infection/death rates over time *by age*. 
+This project is designed to take the scraped raw data from [obastani/covid19demographics](https://github.com/obastani/covid19demographics) and format it for processing/plotting/publication. We are currently only focusing on plotting COVID-19 infection/death rates over time *by age*. 
 
 
 ## Installation

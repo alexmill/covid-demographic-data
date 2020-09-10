@@ -11,6 +11,7 @@ If you are not using Jupyter Lab, don't worry about the `jupyterlab` dependency.
 jupyter lab --notebook-dir="."
 ```
 
+### Setting up local environment
 
 If using `conda`:
 

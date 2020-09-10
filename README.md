@@ -3,7 +3,14 @@
 This project is designed to take the scraped raw data from [obastani/covid19demographics](https://github.com/obastani/covid19demographics) and format it for processing/plotting/publication. We are currently only focusing on plotting COVID-19 infection/death rates over time *by age*. 
 
 
-## Installation
+## Installation & Getting Started
+
+If you are not using Jupyter Lab, don't worry about the `jupyterlab` dependency. If you are using Jupyter Lab, setup your environment as per below and launch the project with:
+
+```
+jupyter lab --notebook-dir="."
+```
+
 
 If using `conda`:
 
@@ -20,7 +27,9 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-If using neither, make sure you have the packages listed in `requirements.txt` installed in your Python environment (you don't need to install `jupyterlab` if not using Jupyter Lab).
+If using neither, make sure you have the packages listed in `requirements.txt` installed in your Python environment.
+
+
 
 ## State Data Formatters
 

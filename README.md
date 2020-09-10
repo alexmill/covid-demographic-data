@@ -1,4 +1,7 @@
-# covid-demographic-data
+# COVID Demographic Data Formatting
+
+This project is designed to take the sraped raw data from [obastani/covid19demographics](https://github.com/obastani/covid19demographics) and format it for processing/plotting/publication. We are currently only focusing on plotting COVID-19 infection/death rates over time *by age*. 
+
 
 ## Installation
 
@@ -17,7 +20,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-If using neither, make sure you have the packages listed in `requirements.txt` installed in your Python environment.
+If using neither, make sure you have the packages listed in `requirements.txt` installed in your Python environment (you don't need to install `jupyterlab` if not using Jupyter Lab).
 
 ## State Data Formatters
 

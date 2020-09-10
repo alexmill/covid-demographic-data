@@ -1,0 +1,12 @@
+name: covid
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+     - git+https://github.com/unitedstates/python-us.git

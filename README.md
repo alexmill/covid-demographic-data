@@ -5,11 +5,6 @@ This project is designed to take the scraped raw data from [obastani/covid19demo
 
 ## Installation & Getting Started
 
-If you are not using Jupyter Lab, don't worry about the `jupyterlab` dependency. If you are using Jupyter Lab, setup your environment as per below and launch the project with:
-
-```
-jupyter lab --notebook-dir="."
-```
 
 ### Setting up local environment
 
@@ -30,6 +25,23 @@ pip install -r requirements.txt
 
 If using neither, make sure you have the packages listed in `requirements.txt` installed in your Python environment.
 
+
+### Optional Jupyter Lab Installation
+If you are not using Jupyter Lab, don't worry about the `jupyterlab` dependency. If you are using Jupyter Lab, setup your environment as per above, then install Jupyter Lab using your package manager of choice:
+
+```
+conda install jupyterlab
+```
+or
+```
+pip install jupyterlab
+```
+
+and launch the project with:
+
+```
+jupyter lab --notebook-dir="."
+```
 
 
 ## State Data Formatters
